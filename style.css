@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #e0f7fa 0%, #b3e5fc 100%); /* Lighter gradient background */
+}
+
+.container {
+    background-color: #ffffff; /* White background for the container */
+    padding: 20px; /* Reduced padding for a lighter feel */
+    border-radius: 8px; /* Slightly smaller rounded corners */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Lighter shadow */
+    text-align: center;
+    width: 280px; /* Slightly narrower width */
+    border: 1px solid #cccccc; /* Lighter border */
+}
+
+h1 {
+    margin-bottom: 15px; /* Reduced margin */
+    font-size: 22px; /* Slightly smaller font size */
+    color: #444444; /* Lighter dark grey text */
+}
+
+label {
+    display: block;
+    margin: 8px 0 4px; /* Reduced margin */
+    font-size: 13px; /* Slightly smaller font size */
+    color: #666666; /* Lighter grey text */
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    margin-bottom: 12px; /* Reduced margin */
+    border: 1px solid #dddddd; /* Light border */
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px; /* Slightly smaller font size */
+    background-color: #f9f9f9; /* Very light grey background inside input */
+}
+
+button {
+    width: 100%;
+    padding: 10px; /* Reduced padding */
+    font-size: 15px; /* Slightly smaller font size */
+    color: white;
+    background-color: #007bff; /* Blue button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-1px); /* Slight lift effect on hover */
+}
+
+#result {
+    margin-top: 15px; /* Reduced margin */
+    font-size: 18px; /* Slightly smaller font size */
+    color: #333333; /* Dark grey text */
+    font-weight: bold; /* Emphasize the result */
+}
